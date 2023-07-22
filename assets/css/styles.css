@@ -6,12 +6,6 @@
     border: none;
 }
 
-header {
-    height: 90px;
-    width: 100%;
-    background-color: #87cefa;
-}
-
 section {
     height: 300px;
     width: 100%;
@@ -32,6 +26,22 @@ body {
     color: #fffaf0;
 }
 
+h1,
+h2,
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 3px;
+    color: #fffaf0;
+}
+
+/* Headsection and Navbar*/
+
+header {
+    height: 90px;
+    width: 100%;
+    background-color: #87cefa;
+}
+
 #logo {
     color: black;
     font-family: 'Ubuntu';
@@ -43,14 +53,6 @@ body {
 
 #logo img {
     vertical-align: bottom;
-}
-
-h1,
-h2,
-h3 {
-    font-family: 'Ubuntu', sans-serif;
-    letter-spacing: 3px;
-    color: #fffaf0;
 }
 
 #nav-links {
@@ -69,6 +71,40 @@ h3 {
     float: right;
 }
 
-#mainimg {
+/* First-Impression-Image and -text*/
+
+#starter-outer {
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#starter-img {
+    height: 600px;
     width: 95%;
+    background: url(../images/TURTLE_main.webp) no-repeat center center;
+    margin: 30px auto;
+}
+
+#starter-text {
+    width: 350px;
+    height: 120px;
+
+    padding-top: 20px;
+    padding-left: 20px;
+
+    background-color: rgba(30, 0, 255, .2);
+
+    top: 200px;
+    right: 150px;
+    position: absolute;
+}
+
+#starter-text > h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.text-right {
+    text-align: center;
 }
