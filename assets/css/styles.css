@@ -6,12 +6,6 @@
     border: none;
 }
 
-section {
-    height: 300px;
-    width: 100%;
-    background-color: #1e00ff;
-}
-
 /*  Ab hier zählt's */
 
 body {
@@ -56,6 +50,7 @@ header {
 #nav-links a {
     text-decoration: none;
     color: black;
+    letter-spacing: 1px;
 }    
 
 #nav-links>li {
@@ -68,9 +63,10 @@ header {
 /* First-Impression-Image and -text*/
 
 #starter-outer {
-    height: 650px;
+    height: 660px;
     width: 100%;
     overflow: hidden;
+    background-color: #1e00ff;
 }
 
 #starter-img {
@@ -99,12 +95,22 @@ header {
     padding-bottom: 10px;
 }
 
-.text-right {
-    text-align: center;
+/* Triple Main */
+
+#triple-outer {
+    background-color:  #1e00ff;
 }
 
+article {
+    float: left;
+    background-color: #1e00ff;
+    text-align: center;
+    width: 33.3334%;
+    margin: 0 auto;
+}
 
-
+article:hover {
+}
 
 /* Footer */
 
@@ -120,16 +126,13 @@ header {
     width: 95%;
     background: url(../images/Strand2.webp) no-repeat center center;
     margin: 30px auto;
-    overflow: hidden;
 }
 
 #footer-text {
     width: 90%;
     height: 50px;
-
     padding-top: 50px;
     padding-left: 30px;
-
     top: 20px;
     left: 20px;
  //   position: relative;
@@ -142,9 +145,10 @@ header {
 .support>li {
     display: inline;
     text-decoration: none;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
     font-size: 150%;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     padding-left: 70px;
 }
 
