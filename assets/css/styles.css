@@ -54,10 +54,13 @@ h3 {
 }
 
 #nav-links {
-    text-decoration: none;
     list-style-type: none;
-    color: black;
 }
+
+#nav-links a {
+    text-decoration: none;
+    color: black;
+}    
 
 #nav-links>li {
     font-size: 150%;
