@@ -12,12 +12,6 @@ section {
     background-color: #1e00ff;
 }
 
-footer {
-    height: 200px;
-    width: 100%;
-    background-color: #c2b280;
-}
-
 /*  Ab hier zählt's */
 
 body {
@@ -107,4 +101,54 @@ header {
 
 .text-right {
     text-align: center;
+}
+
+
+
+
+/* Footer */
+
+#footer-outer {
+    height: 230px;
+    width: 100%;
+    background-color: #1e00ff;
+    overflow: hidden;
+}
+
+#footer-img {
+    height: 200px;
+    width: 95%;
+    background: url(../images/Strand2.webp) no-repeat center center;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+#footer-text {
+    width: 90%;
+    height: 50px;
+
+    padding-top: 50px;
+    padding-left: 30px;
+
+    top: 20px;
+    left: 20px;
+ //   position: relative;
+}
+
+.support {
+    text-align: center;
+}
+
+.support>li {
+    display: inline;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 150%;
+    letter-spacing: 3px;
+    padding-left: 70px;
+}
+
+.support a {
+    text-decoration: none;
+    color: #fffaf0;
 }
