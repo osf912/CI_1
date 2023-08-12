@@ -25,7 +25,7 @@
         <nav>
             <ul id="nav-links">
                 <li>
-                    <a href="#register">Register</a>
+                    <a href="#register">Sign up</a>
                 </li>
                 <li>
                     <a href="#triple-outer">Learn about</a>
@@ -47,7 +47,7 @@
     </section>
     <section id="triple-outer">
         <article id="turtles">
-            <img src="./assets/images/form.webp" width="80%">
+            <img src="./assets/images/form.webp" alt="Three Sea Turtles on the beach" width="80%">
             <h2>Sea Turtles are great</h2>
             <p>
                 Do you know, that the female sea turtles swims hundreds of miles back to the beach, where they were born..? <br>
@@ -57,7 +57,7 @@
             </p>
         </article>   
         <article id="nest">
-            <img src="./assets/images/hatchlings.webp" width="80%">
+            <img src="./assets/images/hatchlings.webp" alt="Many hatchlings crawling out of the nest at the beach" width="80%">
             <h2>The Hatchlings</h2>
             <p>
                 The most vulnerable moment in the life of a sea turtle, is also it's first. When the hatchlings leave the nest,
@@ -67,7 +67,7 @@
             </p>
         </article>
         <article id="volunteer">
-            <img src="./assets/images/volunteer.webp" width="80%">
+            <img src="./assets/images/volunteer.webp" alt="A hatchling in the hands of a volunteer" width="80%">
             <h2>Volunteer</h2>
             <p>
                 Because of the vulnerability of the nests it is important to secure them. Therefore many organizations give
@@ -79,9 +79,22 @@
     </section>
 
     <section id="register">
-        <div>
+        <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
 
-        </div>
+            <h2>Sign up and stay informed...</h2>
+
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" id="first_name" class="text-input" required>
+            <br>
+            <label for="last_name">Last Name</label>
+            <input type="text" name="last_name" id="last_name" class="text-input" required>
+            <br>
+            <label for="email_address">Email Address</label>
+            <input type="email" name="email_address" id="email_address" class="text-input" required>
+            <br>
+            <button type="submit" class="button">Sign Up Now!</button>
+
+        </form>
     </section>
 
     <footer  id="footer-outer">
