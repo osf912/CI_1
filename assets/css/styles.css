@@ -130,7 +130,8 @@ article > p{
 /* Register */
 
 #register {
-    height: 500px;
+    height: 700px;
+    background: url(../images/seaturtel2b.webp) no-repeat center center;
     background-color: #1e00ff;
 }
 
