@@ -98,26 +98,49 @@ header {
 /* Triple Main */
 
 #triple-outer {
-    background-color:  #1e00ff;
+    background-color: #c2b280;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 article {
-    float: left;
-    background-color: #1e00ff;
+    background-color: #c2b280;
     text-align: center;
-    width: 33.3334%;
-    margin: 0 auto;
+    width: 30%;
+    height: 460px;
+    padding-top: 20px;
 }
 
 article:hover {
+    border: 5px solid darkgrey;
+    margin: -5px;
 }
+
+article > h2 {
+    padding-top: 10px;
+}
+
+article > p{
+    padding: 20px;
+}
+
+
+/* Register */
+
+#register {
+    height: 500px;
+    background-color: #1e00ff;
+}
+
 
 /* Footer */
 
 #footer-outer {
     height: 230px;
     width: 100%;
-    background-color: #1e00ff;
+    background-color: #c2b280;
     overflow: hidden;
 }
 
@@ -140,16 +163,21 @@ article:hover {
 
 .support {
     text-align: center;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
 }
 
 .support>li {
-    display: inline;
-    text-decoration: none;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     font-size: 150%;
     letter-spacing: 5px;
     padding-left: 70px;
+}
+
+.support a:hover {
+    color: #1e00ff;
 }
 
 .support a {
