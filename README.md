@@ -14,8 +14,6 @@ I had three ages in mind:
   - Age 35 - 55, looking for a sabatical or sending their kids
   - Age 65 - 85, retirement or sending their grand children
 
-<img src="./assets/readme-images/Am I Responsive.jpg>
-
 Font are Roboto Condensed and Ubuntu, both sans serif, from Google Fonts to underline the information approach.
 
 The Color Scheme is inspired by the beach:
@@ -24,15 +22,39 @@ The Color Scheme is inspired by the beach:
   - #1e00ff a darker blue, representing the ocean and
   - #c2b280 a sand tone for the beach.
 
+Font color is usually #fffaf0 a warm white, just in the Learn Abouts Lighthouse forced me to switch to black
+because of a better contrast.
+
 ## Features
+
+I will describe the main parts of the site in the following.
 
 ### Header
 
+![Header](https://github.com/osf912/CI_1/tree/main/assets/readme-images/LogoNavbar.jpg)
+
+  - The Logo is a self design, using a free turle icon and the text 'turtle retreat' as a safe haven for endangered sea turtles.
+  - With the links in the navbar, you can jump in the document to the referenced part of the site.
+
 ### The landingpage image
+
+![First Impression Image](https://github.com/osf912/CI_1/tree/main/assets/readme-images/FirstImp.jpg)
+
+  - The first impression is a beautyful image of a swimming seaturtle, combined with a hawkish text, to show who's the problem. 
 
 ### Learn About
 
+![Learn About](https://github.com/osf912/CI_1/tree/main/assets/readme-images/LearnAbout.jpg)
+
+  - Provide some information about seaturtles in general, the hatchlings and ways we can help as volunteers.
+  - This part can be completed with additional articles (to maybe six or nine articles)
+
 ### Sign Up Form
+
+![Sign Up Form](https://github.com/osf912/CI_1/tree/main/assets/readme-images/SignUp.jpg)
+
+  - Here you can sign up for further information about seaturtles and volunteering. 
+  - A future form could some additional possibilities to checkbox if you like to volunteer and a select-element on which continent. Or maybe a select-element for which species you want to volunteer. 
 
 ## Testing
 
@@ -40,11 +62,20 @@ The Color Scheme is inspired by the beach:
   - I've confirmed that the site is responsive and add an "Am I Responsive" screenshot to the readme.
   - I've checked that the links and the form works properly.
 
+### HTML Validator Testing
+
+![HTML Validator](https://github.com/osf912/CI_1/tree/main/assets/readme-images/HtmlChecker.jpg)
+
+### CSS Validator Testing
+
+![HTML Validator](https://github.com/osf912/CI_1/tree/main/assets/readme-images/CSS_Validator.jpg)
+
+### Lighthouse Testing
+
+![HTML Validator](https://github.com/osf912/CI_1/tree/main/assets/readme-images/lighthouse.jpg)
 
 
-### Validator Testing
-
-
+## Deployment
 
 ## Thanks to:
 
