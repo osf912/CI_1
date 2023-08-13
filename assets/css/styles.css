@@ -309,3 +309,19 @@ article > p{
         font-size: 120%;
     }
 }
+
+    /* for mobile screen sizes 365px wide down */
+@media screen and (max-width: 365px) {
+
+    #logo {
+        font-size: 200%
+    }
+    #nav-links a {
+        font-size: 70%;
+        margin: 0;
+    }
+
+    #starter-text {
+        width: 300px;
+    }
+}
