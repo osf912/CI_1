@@ -241,8 +241,8 @@ article > p{
 
     article {
         width: 95%;
-        height: 580px;
-        margin-top: 20px;
+        height: 620px;
+        margin-top: 0;
     }
 
     #signup-form {
@@ -257,7 +257,7 @@ article > p{
 /* for mobile screen sizes 750px wide down */
 @media screen and (max-width: 750px) {
 
-    #nav-links {
+        #nav-links {
         clear: left;
         float: left;
         font-size: 70%;
