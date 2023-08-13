@@ -56,6 +56,13 @@ I will describe the main parts of the site in the following.
   - Here you can sign up for further information about seaturtles and volunteering. 
   - A future form could some additional possibilities to checkbox if you like to volunteer and a select-element on which continent. Or maybe a select-element for which species you want to volunteer. 
 
+### Footer
+
+![Footer](https://github.com/osf912/CI_1/tree/main/assets/readme-images/Footer.jpg)
+
+  - The footer in this case is not an invitation to follow me on social media, but an appeal to spend money or support
+  some organizations in this matter.
+
 ## Testing
 
   - I've tested the site in different browsers: Chrome, Firefox, Edge
@@ -66,20 +73,31 @@ I will describe the main parts of the site in the following.
 
 ![HTML Validator](https://github.com/osf912/CI_1/tree/main/assets/readme-images/HtmlChecker.jpg)
 
+  - In the beginning I gave the images of the learn about articles a width of 80%. A % is not allowed it has to be pixels.
+  - confirmed.
+
 ### CSS Validator Testing
 
 ![HTML Validator](https://github.com/osf912/CI_1/tree/main/assets/readme-images/CSS_Validator.jpg)
+
+  - confirmed.
 
 ### Lighthouse Testing
 
 ![HTML Validator](https://github.com/osf912/CI_1/tree/main/assets/readme-images/lighthouse.jpg)
 
+  - The contrast of the sand tone and the warm white was not acceptable for lighthouse, so I had to switch to a black font.
+  - confirmed. 
+
 
 ## Deployment
+
+  - Deployed with GitHub-Pages.
+  - The live link can be found here: https://osf912.github.io/CI_1/
 
 ## Thanks to:
 
   - www.freeiconspng.com for the free use of the Logo-Icon.
   - www.pexels.com for the free use of the turtle images.
   - Google Font
-  - Code Institute for the ability to make this, and use a few ideas and elements of examples in the course.
+  - Code Institute for making me build this, and the use of a few ideas and elements of examples in the course.
