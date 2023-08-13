@@ -1,10 +1,12 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-<h1>Save the Sea Turtles</h1> 
+# Save the Sea Turtles
 
 This is a site to support the sea turtles. It gives a few informations about the struggle to survive
 of the endangered species and try to motivate the user to volunteer. To get more information you can
 use the sign up form, to stay informed.
+
+![Responsive Mockup](https://github.com/osf912/CI_1/tree/main/assets/readme-images/AmIResponsive.jpg)
 
 This website is targeted to a person, who is interested in help saving the oceans and love the seaturtles.
 I had three ages in mind:
@@ -14,21 +16,37 @@ I had three ages in mind:
 
 <img src="./assets/readme-images/Am I Responsive.jpg>
 
-<h2>Features</h2>
+Font are Roboto Condensed and Ubuntu, both sans serif, from Google Fonts to underline the information approach.
 
-<h2>Testing</h2>
+The Color Scheme is inspired by the beach:
+
+  - #87cefa a light blue like a sunny sky
+  - #1e00ff a darker blue, representing the ocean and
+  - #c2b280 a sand tone for the beach.
+
+## Features
+
+### Header
+
+### The landingpage image
+
+### Learn About
+
+### Sign Up Form
+
+## Testing
 
   - I've tested the site in different browsers: Chrome, Firefox, Edge
   - I've confirmed that the site is responsive and add an "Am I Responsive" screenshot to the readme.
   - I've checked that the links and the form works properly.
 
-<h2>Bugs</h2>
-
-<h2>Validator Testing</h2>
 
 
+### Validator Testing
 
-<h2>Thanks to:</h2>
+
+
+## Thanks to:
 
   - www.freeiconspng.com for the free use of the Logo-Icon.
   - www.pexels.com for the free use of the turtle images.
