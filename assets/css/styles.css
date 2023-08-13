@@ -6,8 +6,6 @@
     border: none;
 }
 
-/*  Ab hier zählt's */
-
 body {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
@@ -186,7 +184,7 @@ article > p{
 #footer-img {
     height: 150px;
     width: 95%;
-    background: url(../images/Strand3.webp) no-repeat center center;
+    background: url(../images/Strand3.webp) no-repeat center center/cover;
     margin: 30px auto;
 }
 
@@ -216,10 +214,98 @@ article > p{
 }
 
 .support a:hover {
-    color: #1e00ff;
+    color: #87cefa;
 }
 
 .support a {
     text-decoration: none;
     color: #fffaf0;
+}
+
+/* media queries */
+
+/* for medium screen sizes from 950px wide down */
+@media screen and (max-width: 950px) {
+
+    #logo {
+        font-size: 220%
+    }
+
+    #starter-text {
+        right: 30px;
+    }
+
+    #triple-outer {
+        flex-direction: column;
+    }
+
+    article {
+        width: 95%;
+        height: 580px;
+        margin-top: 20px;
+    }
+
+    #signup-form {
+        margin: 10px;
+    }
+
+    .support>li {
+        font-size: 100%;
+    }
+}
+
+/* for mobile screen sizes 750px wide down */
+@media screen and (max-width: 750px) {
+
+    #nav-links {
+        clear: left;
+        float: left;
+        font-size: 70%;
+        margin-left: 20px;
+        margin-bottom: 20px;  
+    }
+}
+
+/* for mobile screen sizes 600px wide down */
+@media screen and (max-width: 600px) {
+
+    #starter-text {
+        right: 0;
+    }
+
+    article {
+        width: 98%;
+        height: 480px;
+        margin-top: 0;
+    }
+
+    #signup-form>h2 {
+        font-size: 100%;
+    }
+    
+    .button {
+        font-size: 60%;
+    }
+
+    #footer-outer {
+        height: 300px;
+    }
+
+    #footer-img {
+        height: 250px;
+    }
+
+    #footer-text {
+        height: 80px;
+    }
+
+    .support {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .support>li {
+        font-size: 120%;
+    }
 }
