@@ -6,7 +6,7 @@ This is a site to support sea turtle. It provides a information about the strugg
 of the endangered species and tries to motivate the user to volunteer. To get more information you can
 use the sign up form, to stay up to date.
 
-![Responsive Mockup](https://github.com/osf912/CI_1/blob/main/assets/readme-images/AmIResponsive.png)
+![Responsive Mockup](/assets/readme-images/AmIResponsive.png)
 
 This website targets a person, who is interested in saving the oceans and loves seaturtles.
 I had three agegroups in mind:
@@ -29,7 +29,7 @@ for a better contrast.
 
 ### Header
 
-![Header](https://github.com/osf912/CI_1/blob/main/assets/readme-images/LogoNavbar.jpg)
+![Header](/assets/readme-images/LogoNavbar.jpg)
 
   - The Logo is a self design, using a free turtle icon. The meaning of the word 'turtle retreat' sujests a safe haven 
   for endangered sea turtles.
@@ -37,26 +37,26 @@ for a better contrast.
 
 ### The landingpage image
 
-![First Impression Image](https://github.com/osf912/CI_1/blob/main/assets/readme-images/FirstImp.jpg)
+![First Impression Image](/assets/readme-images/FirstImp.jpg)
 
   - The first impression is a beautyful image of a swimming seaturtle, combined with a hawkish text, to get attention. 
 
 ### Learn About
 
-![Learn About](https://github.com/osf912/CI_1/blob/main/assets/readme-images/LearnAbout.jpg)
+![Learn About](/assets/readme-images/LearnAbout.jpg)
 
   - Provides some information about seaturtles in general, the hatchlings and the way we can help as volunteers.
   - There is room for additional articles (up to 6 articles).
 
 ### Sign Up Form
 
-![Sign Up Form](https://github.com/osf912/CI_1/blob/main/assets/readme-images/SignUp.jpg)
+![Sign Up Form](/assets/readme-images/SignUp.jpg)
 
   - You can sign up for further information/newsletter about sea turtles and volunteering.  
 
 ### Footer
 
-![Footer](https://github.com/osf912/CI_1/blob/main/assets/readme-images/Footer.jpg)
+![Footer](/assets/readme-images/Footer.jpg)
 
   - Unlike other footers, this one is not an invitation to follow me on social media, but an appeal to 
   spend money or support some organizations in this matter.
@@ -69,20 +69,20 @@ for a better contrast.
 
 ### HTML Validator Testing
 
-![HTML Validator](https://github.com/osf912/CI_1/blob/main/assets/readme-images/HtmlChecker.jpg)
+![HTML Validator](/assets/readme-images/HtmlChecker.jpg)
 
   - In the beginning I gave the images of the learn about articles a width of 80%. A '%' is not allowed, it has to be pixels.
   - confirmed.
 
 ### CSS Validator Testing
 
-![HTML Validator](https://github.com/osf912/CI_1/blob/main/assets/readme-images/CSS_Validator.jpg)
+![HTML Validator](/assets/readme-images/CSS_Validator.jpg)
 
   - confirmed.
 
 ### Lighthouse Testing
 
-![HTML Validator](https://github.com/osf912/CI_1/blob/main/assets/readme-images/lighthouse.jpg)
+![HTML Validator](/assets/readme-images/lighthouse.jpg)
 
   - The contrast of the beige-color and the warm white was not acceptable for lighthouse, so I had to switch to a black font.
   - confirmed. 
