@@ -6,7 +6,7 @@ This is a site to support the sea turtles. It gives a few informations about the
 of the endangered species and try to motivate the user to volunteer. To get more information you can
 use the sign up form, to stay informed.
 
-![Responsive Mockup](https://github.com/osf912/CI_1/tree/main/assets/readme-images/AmIResponsive.jpg)
+![Responsive Mockup](https://github.com/osf912/CI_1/blob/main/assets/readme-images/AmIResponsive.png)
 
 This website is targeted to a person, who is interested in help saving the oceans and love the seaturtles.
 I had three ages in mind:
@@ -31,34 +31,34 @@ I will describe the main parts of the site in the following.
 
 ### Header
 
-![Header](https://github.com/osf912/CI_1/tree/main/assets/readme-images/LogoNavbar.jpg)
+![Header](https://github.com/osf912/CI_1/blob/main/assets/readme-images/LogoNavbar.jpg)
 
   - The Logo is a self design, using a free turle icon and the text 'turtle retreat' as a safe haven for endangered sea turtles.
   - With the links in the navbar, you can jump in the document to the referenced part of the site.
 
 ### The landingpage image
 
-![First Impression Image](https://github.com/osf912/CI_1/tree/main/assets/readme-images/FirstImp.jpg)
+![First Impression Image](https://github.com/osf912/CI_1/blob/main/assets/readme-images/FirstImp.jpg)
 
   - The first impression is a beautyful image of a swimming seaturtle, combined with a hawkish text, to show who's the problem. 
 
 ### Learn About
 
-![Learn About](https://github.com/osf912/CI_1/tree/main/assets/readme-images/LearnAbout.jpg)
+![Learn About](https://github.com/osf912/CI_1/blob/main/assets/readme-images/LearnAbout.jpg)
 
   - Provide some information about seaturtles in general, the hatchlings and ways we can help as volunteers.
   - This part can be completed with additional articles (to maybe six or nine articles)
 
 ### Sign Up Form
 
-![Sign Up Form](https://github.com/osf912/CI_1/tree/main/assets/readme-images/SignUp.jpg)
+![Sign Up Form](https://github.com/osf912/CI_1/blob/main/assets/readme-images/SignUp.jpg)
 
   - Here you can sign up for further information about seaturtles and volunteering. 
   - A future form could some additional possibilities to checkbox if you like to volunteer and a select-element on which continent. Or maybe a select-element for which species you want to volunteer. 
 
 ### Footer
 
-![Footer](https://github.com/osf912/CI_1/tree/main/assets/readme-images/Footer.jpg)
+![Footer](https://github.com/osf912/CI_1/blob/main/assets/readme-images/Footer.jpg)
 
   - The footer in this case is not an invitation to follow me on social media, but an appeal to spend money or support
   some organizations in this matter.
@@ -71,20 +71,20 @@ I will describe the main parts of the site in the following.
 
 ### HTML Validator Testing
 
-![HTML Validator](https://github.com/osf912/CI_1/tree/main/assets/readme-images/HtmlChecker.jpg)
+![HTML Validator](https://github.com/osf912/CI_1/blob/main/assets/readme-images/HtmlChecker.jpg)
 
   - In the beginning I gave the images of the learn about articles a width of 80%. A % is not allowed it has to be pixels.
   - confirmed.
 
 ### CSS Validator Testing
 
-![HTML Validator](https://github.com/osf912/CI_1/tree/main/assets/readme-images/CSS_Validator.jpg)
+![HTML Validator](https://github.com/osf912/CI_1/blob/main/assets/readme-images/CSS_Validator.jpg)
 
   - confirmed.
 
 ### Lighthouse Testing
 
-![HTML Validator](https://github.com/osf912/CI_1/tree/main/assets/readme-images/lighthouse.jpg)
+![HTML Validator](https://github.com/osf912/CI_1/blob/main/assets/readme-images/lighthouse.jpg)
 
   - The contrast of the sand tone and the warm white was not acceptable for lighthouse, so I had to switch to a black font.
   - confirmed. 
@@ -92,7 +92,11 @@ I will describe the main parts of the site in the following.
 
 ## Deployment
 
-  - Deployed with GitHub-Pages.
+  - Deployed to GitHub-Pages. The steps to deploy are as follows:
+    - In the GitHub repository, navigate to the 'Settings' tab
+    - On the righthand side choose 'Pages'.
+    - From the source section drop-down menu, select 'Deploy from a branch' and choose the 'main' branch.
+    - Once the master'main' branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
   - The live link can be found here: https://osf912.github.io/CI_1/
 
 ## Thanks to:
