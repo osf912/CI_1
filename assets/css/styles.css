@@ -110,6 +110,7 @@ header {
 
 article {
     background-color: #c2b280;
+    color: black;
     text-align: center;
     width: 30%;
     height: 500px;
@@ -123,6 +124,7 @@ article:hover {
 
 article > h2 {
     padding-top: 10px;
+    color: black;
 }
 
 article > p{
